@@ -42,3 +42,8 @@ in order to create all your Infrastructure As Code, your will need launch the sc
 - Update the Server stack:
     - `./update-stack.sh` `ENTER_YOUR_server_STACK_NAME_HERE` `udagram-servers.yml` `udagram-servers-params.json`
     * This script should be used only if you have made some changes in your scripts
+
+## [Important] Troubleshooting with SSH
+
+You may need to add a `KeyName` parameter and create your own key to connect on your instances for troubleshooting if needed.
+Also, make sure to change the `CidrIp` in `BastionSecurityGroup` with your own `ÌP` for SSH connection or you may remove this part if you don't SSH.
