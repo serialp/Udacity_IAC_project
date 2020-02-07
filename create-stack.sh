@@ -1,6 +1,6 @@
 # Cheick GUITI
 # create-stack.sh
-# run me with `bash create-stack.sh`
+# run me with ./create-stack.sh
 #!/bin/bash
 
 aws cloudformation create-stack \
