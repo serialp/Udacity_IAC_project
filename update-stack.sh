@@ -1,6 +1,6 @@
 # Cheick GUITI
 # update-stack.sh
-# run me with `bash update-stack.sh`
+# run me with ./update-stack.sh
 #!/bin/bash
 
 aws cloudformation update-stack \
