@@ -8,6 +8,10 @@ Instagram-like app from the ground up. We will begin with deploying the networki
 followed by servers, security roles and software. We’ll do it exactly as it’s done on the job,
 following best practices and scripting as much as possible.
 
+### Udagram Diagram
+
+![img-1](Udagram_diagram.jpeg)
+
 ### Setup the Environment
 
 * [Install AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html)
